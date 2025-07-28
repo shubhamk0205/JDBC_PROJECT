@@ -6,9 +6,9 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) {
-        String url = "jdbc:postgresql://ep-sweet-wind-a1kbhay3-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require";
+        String url = "jdbc:postgresql://ep-fragrant-bush-a1575ufp-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require";
         String user = "neondb_owner";
-        String password = "npg_gkO7Hf0ojtsD";
+        String password = "npg_2gLtFHQ7DboI";
 
         try (Connection conn = DriverManager.getConnection(url, user, password)) {
             System.out.println("✅ Connected to Neon PostgreSQL DB!");
